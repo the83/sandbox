@@ -32,15 +32,15 @@ var fizzBuzz = {
   },
 
   _isFizz: function(num) {
-    return !(num % 3);
+    return num % 3 === 0;
   },
 
   _isBuzz: function(num) {
-    return !(num % 5);
+    return num % 5 === 0;
   },
 
   _isFizzBuzz: function(num) {
-    return !(num % 15);
+    return num % 15 === 0;
   }
 };
 

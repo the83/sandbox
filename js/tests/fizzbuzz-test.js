@@ -1,3 +1,5 @@
+'use strict';
+
 QUnit.test('fizzbuzz returns "fizz" if divisible by 3', function(assert) {
   var max, result, expected;
 
